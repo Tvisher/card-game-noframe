@@ -56,36 +56,14 @@
         setTimeout(() => {
             const gameDataRes = {
                 "isFreeVersion": true,
-                "aspectRatio": '4-3',
-                'desktopColumnSave': false,
-                'arrowType': 'black',
-                "cardImages": [
-                    "https://swiperjs.com/demos/images/nature-5.jpg",
-                    "https://swiperjs.com/demos/images/nature-6.jpg",
-                    "https://swiperjs.com/demos/images/nature-7.jpg",
-
-                    "https://swiperjs.com/demos/images/nature-5.jpg",
-                    "https://swiperjs.com/demos/images/nature-6.jpg",
-                    "https://swiperjs.com/demos/images/nature-7.jpg",
-
-                    "https://swiperjs.com/demos/images/nature-5.jpg",
-                    "https://swiperjs.com/demos/images/nature-6.jpg",
-                    "https://swiperjs.com/demos/images/nature-7.jpg",
-                ],
-                'cardsText': [
-                    'Подсказка для 1 карточки',
-                    'Подсказка для 2 карточки',
-                    'Подсказка для 3 карточки',
-                    'Подсказка для 4 карточки',
-                    'Подсказка для 5 карточки',
-                    'Подсказка для 6 карточки',
-                    'Подсказка для 7 карточки',
-                    'Подсказка для 8 карточки',
-                    'Подсказка для 9 карточки',
-
-                ],
-                'resultMessage': 'Какое то сообщение при успешной сборке игры',
+                "aspectRatio": "4-3",
+                "desktopColumnSave": 1,
+                "arrowType": "black", //white //black
+                "cardImages": ["https://vnutricom.ru//upload/iblock/5b2/pgxso1b0wpt25qiovvkn8lh4d7brv1t7.jpg", "https://vnutricom.ru//upload/iblock/0a4/s44rz5acm32vl81hk8zsg0775qvka28u.jpg", "https://vnutricom.ru//upload/iblock/a1b/k2ox9d3kevljbd4qe6fac2r1yau756vn.jpg", "https://vnutricom.ru//upload/iblock/b8d/v2ur2wd0n98hgjx7yjdg26yib7a1tgw5.jpg", "https://vnutricom.ru//upload/iblock/4f7/iqk2pcjf4s3pj6zuw8dncog1n8ncn6k3.jpg", "https://vnutricom.ru//upload/iblock/60c/9bys8ouqiuf1i4qvp0roq11zibzkh412.jpg", "https://vnutricom.ru//upload/iblock/0b6/7q9s02dzd8b4rn6po8r763pgdpa6hh30.jpg", "https://vnutricom.ru//upload/iblock/f49/5d4zzc6rkc5htki81odowcl1wvgfzb25.jpg", "https://vnutricom.ru//upload/iblock/a56/7bb3zdmcvebgkjqkfjbxk3ze5aflr779.jpg",],
+                "cardsText": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "",],
+                "resultMessage": "Ура! Вы собрали символ ЦК-2024 :)",
             };
+
             new CardsGame({
                 parentElement: cardGameContainer,
                 gameData: gameDataRes,
