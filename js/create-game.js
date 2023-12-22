@@ -55,7 +55,7 @@
     const initGame = () => {
         setTimeout(() => {
             const gameDataRes = {
-                "isFreeVersion": true,
+                "isFreeVersion": false,
                 "aspectRatio": "4-3",
                 "desktopColumnSave": 1,
                 "arrowType": "black", //white //black
