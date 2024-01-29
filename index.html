@@ -18,7 +18,17 @@
     <div class="container">
         <script src="https://tvisher.github.io/card-game-noframe/js/create-game.js" data-skip-moving="true"
             data-game-id="someid1341"></script>
+
     </div>
 </body>
 
 </html>
+
+<script>
+    const url = 'https://vnutricom.ru/rest/1/4xl3o35nc9w314sa/iblock.Element.get.json?iblockId=12&elementId=1117&select[0]=ID&select[1]=NAME&select[2]=TYPE_ARROW&select[3]=GAMEOVER';
+    fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            console.dir(data.result.element);
+        })
+</script>
